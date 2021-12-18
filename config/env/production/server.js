@@ -1,8 +1,9 @@
 module.exports = ({ env }) => ({
-    url: env('MY_HEROKU_URL'),
+    url: 'https://naughty-yalow-aa259a.netlify.app',
+    proxy: true,
     admin: {
         auth: {
-          secret: env('ADMIN_JWT_SECRET', '23ae3722870fd6323ac3fbe4ffdd1e50'),
+          secret: '28e4cc49-f7c4-41b1-9f5d-2acbe7c38651',
         },
       },
   });
