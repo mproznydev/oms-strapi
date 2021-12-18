@@ -134,7 +134,7 @@ module.exports = {
 
           ctx.cookies.set("token", token, {
             httpOnly: true,
-            secure: false,
+            secure: true,
             maxAge: 1000 * 60 * 60 * 24 * 14, // 14 Day Age
             sameSite:'none',
           });
