@@ -136,7 +136,6 @@ module.exports = {
             httpOnly: true,
             secure: false,
             maxAge: 1000 * 60 * 60 * 24 * 14, // 14 Day Age
-            domain: 'https://naughty-yalow-aa259a.netlify.app',
           });
 
         ctx.send({
