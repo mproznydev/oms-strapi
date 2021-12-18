@@ -1,7 +1,6 @@
 module.exports = ({ env }) => ({
   host: env('HOST', '0.0.0.0'),
   port: env.int('PORT', 1337),
-  url:'https://ufiolkow-oms.herokuapp.com/',
   proxy: true,
   admin: {
     auth: {
